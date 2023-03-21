@@ -1,11 +1,12 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Tabela Periodica</title>
+    <link rel="shortcut icon" href="https://cdn-icons-png.flaticon.com/512/3099/3099267.png" type="image/x-icon">
 </head>
 
 <body>
@@ -58,7 +59,15 @@
         th{
             margin-left: auto;
         }
-
+        .t2{
+            display: flex;
+            justify-content: flex-end;
+            margin-top: 3%;
+        }
+        .t1{
+            display: flex;
+            justify-content: flex-end;
+        }
 
         .A{
             background-color: #E9B4D9;
@@ -92,14 +101,11 @@
         }
     </style>
     <table>
-        <tr>
-            <td></td>
         <tr class="hhe">
             <td class="NM">H</td>
             <td class="GN">He</td>
         </tr>
         <tr>
-            <td></td>
             <td class="MA">Li</td>
             <td class="MAT">Be</td>
             <th>
@@ -112,7 +118,6 @@
             </th>
         </tr>
         <tr>
-            <td></td>
             <td class="MA">Mg</td>
             <td class="MAT">Na</td>
             <th>
@@ -125,7 +130,6 @@
             </th>
         </tr>
         <tr>
-            <td></td>
             <td class="MA">K</td>
             <td class="MAT">Ca</td>
             <td class="MT">Sc</td>
@@ -146,7 +150,6 @@
             <td class="GN">Kr</td>
         </tr>
         <tr>
-            <td></td>
             <td class="MA">Rb</td>
             <td class="MAT">Sr</td>
             <td class="MT">Y</td>
@@ -167,7 +170,6 @@
             <td class="GN">Xe</td>
         </tr>
         <tr>
-            <td></td>
             <td class="MA">Cs</td>
             <td class="MAT">Ba</td>
         <th>
@@ -189,7 +191,6 @@
         </th>
         </tr>
         <tr>
-            <td></td>
             <td class="MA">Fr</td>
             <td class="MAT">Ra</td>
             <th>
@@ -210,10 +211,7 @@
                 <td class="GN">Og</td>
             </th>
         </tr>
-    </table>
-
-
-        <tr style="justify-content: flex-end; margin-top: 3%;">
+        <tr class="t2">
             <td class="L">La</td>
             <td class="L">Ce</td>
             <td class="L">Pr</td>
@@ -230,7 +228,7 @@
             <td class="L">Yb</td>
             <td class="L">Lu</td>
         </tr>
-        <tr style="justify-content: flex-end;">
+        <tr class="t1">
             <td class="A">Ac</td>
             <td class="A">Th</td>
             <td class="A">Pa</td>
@@ -248,6 +246,4 @@
             <td class="A">Lr</td>
     </table>
 </body>
-</html>
-
 </html>
